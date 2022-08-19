@@ -14,6 +14,5 @@ npx hardhat run scripts/deploy.js
 # 0xStorage
 
 
-https://raw.githubusercontent.com/goran0706/0xStorage/main/ipfs-ethereum-storage.png
-
-https://raw.githubusercontent.com/goran0706/0xStorage/main/ipfs-ethereum-storage-audio.png
+![My Image](ipfs-ethereum-storage.png)
+![My Image](ipfs-ethereum-storage-audio.png)
