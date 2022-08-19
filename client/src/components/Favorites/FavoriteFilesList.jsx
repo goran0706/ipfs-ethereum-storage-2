@@ -22,5 +22,10 @@ export default function FavoriteFilesList({ favorites }) {
 		[favorites]
 	);
 
-	return <FavoriteList>{items}</FavoriteList>;
+	return (
+		<FavoriteList>
+			<p>FAVORITES</p>
+			{items}
+		</FavoriteList>
+	);
 }
