@@ -107,7 +107,7 @@ contract FileStorage {
 
     function getNftByRarity(Rarity rarity) public view returns (NFT[] memory) {
         NFT[] memory array;
-        for (uint i = 0; i < nfts[msg.sender].length; i++) {
+        for (uint256 i = 0; i < nfts[msg.sender].length; i++) {
             if (nfts[msg.sender][i].rarity == rarity) {
                 array[i] = nfts[msg.sender][i];
             }

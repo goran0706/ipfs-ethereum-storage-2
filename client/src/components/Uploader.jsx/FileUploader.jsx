@@ -20,7 +20,7 @@ const UploadFileButton = styled(Button)`
 		transform: translate(-30px, -60px);
 	}
 	&:hover {
-		color: #fff;
+		color: #fff; 
 		background-color: #168be8;
 		box-shadow: none;
 	}

@@ -19,7 +19,7 @@ export default function useContract(address, ABI, withSigner) {
 		} catch (error) {
 			console.error('Failed to get contract', error);
 			return null;
-		}
+		} 
 	}, [ABI, account, address, chainId, library, withSigner]);
 }
 

@@ -10,7 +10,7 @@ const ConnectButton = styled.button`
 	cursor: pointer;
 	color: #168be8;
 	background-color: #fff;
-	border-radius: 5px;
+	border-radius: 5px; 
 	border: none;
 	outline: none;
 	height: 100%;

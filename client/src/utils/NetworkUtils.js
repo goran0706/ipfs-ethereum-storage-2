@@ -20,7 +20,7 @@ export const getNetworkDetails = chainId => {
 			return networks.testNetworks.rinkeby;
 		case '0x3':
 			return networks.testNetworks.ropsten;
-		default:
+		default: 
 			return networks.mainNetworks.mainnet;
 	}
 };

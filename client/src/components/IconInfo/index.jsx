@@ -16,3 +16,4 @@ export default function IconInfo({ content, delayHide }) {
 		</Wrapper>
 	);
 }
+ 

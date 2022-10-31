@@ -19,7 +19,7 @@ export default function DocumentList({ documents, children }) {
 		[documents]
 	);
 
-	return (
+	return ( 
 		<StyledDocumentList>
 			{children}
 			{items}

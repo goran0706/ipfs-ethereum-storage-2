@@ -20,7 +20,7 @@ export default function PhotoList({ photos, children }) {
 
 	return (
 		<StyledPhotoList>
-			{children}
+			{children} 
 			{items}
 		</StyledPhotoList>
 	);

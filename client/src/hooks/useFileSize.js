@@ -18,3 +18,4 @@ export default function useFileSize(n, path) {
 
 	return size;
 }
+ 

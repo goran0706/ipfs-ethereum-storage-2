@@ -16,7 +16,7 @@ export default function Photos() {
 			const tx = await storage.addPhoto(...params);
 			await tx.wait();
 		}
-	};
+	}; 
 
 	return (
 		<PhotoList photos={photos}>

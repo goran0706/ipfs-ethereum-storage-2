@@ -12,7 +12,7 @@ import useVideoContext from './useVideoContext';
 import useWeb3Context from './useWeb3Context';
 
 export {
-	useAudioContext,
+	useAudioContext, 
 	useContract,
 	useDocumentContext,
 	useFileSize,

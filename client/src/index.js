@@ -12,23 +12,23 @@ import './index.css';
 import FavoriteProvider from './contexts/FavoriteProvider';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-	<BrowserRouter>
-		<Web3Provider>
-			<IpfsProvider>
-				<NftProvider>
-					<PhotoProvider>
-						<AudioProvider>
-							<VideoProvider>
-								<DocumentProvider>
-									<FavoriteProvider>
-										<App />
-									</FavoriteProvider>
-								</DocumentProvider>
-							</VideoProvider>
-						</AudioProvider>
-					</PhotoProvider>
-				</NftProvider>
-			</IpfsProvider>
-		</Web3Provider>
-	</BrowserRouter>
+    <BrowserRouter>
+        <Web3Provider>
+            <IpfsProvider>
+                <NftProvider>
+                    <PhotoProvider>
+                        <AudioProvider>
+                            <VideoProvider>
+                                <DocumentProvider>
+                                    <FavoriteProvider>
+                                        <App />
+                                    </FavoriteProvider>
+                                </DocumentProvider>
+                            </VideoProvider>
+                        </AudioProvider>
+                    </PhotoProvider>
+                </NftProvider>
+            </IpfsProvider>
+        </Web3Provider>
+    </BrowserRouter>
 );

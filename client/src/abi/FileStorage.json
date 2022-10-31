@@ -1,2175 +1,2175 @@
 [
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Audio",
-				"name": "audio",
-				"type": "tuple"
-			}
-		],
-		"name": "AudioRemoved",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Audio",
-				"name": "audio",
-				"type": "tuple"
-			}
-		],
-		"name": "AudioStored",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Document",
-				"name": "document",
-				"type": "tuple"
-			}
-		],
-		"name": "DocumentRemoved",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Document",
-				"name": "document",
-				"type": "tuple"
-			}
-		],
-		"name": "DocumentStored",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "address",
-						"name": "ownership",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "external_url",
-						"type": "string"
-					},
-					{
-						"internalType": "enum FileStorage.Rarity",
-						"name": "rarity",
-						"type": "uint8"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.NFT",
-				"name": "nft",
-				"type": "tuple"
-			}
-		],
-		"name": "NFTRemoved",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "address",
-						"name": "ownership",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "external_url",
-						"type": "string"
-					},
-					{
-						"internalType": "enum FileStorage.Rarity",
-						"name": "rarity",
-						"type": "uint8"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.NFT",
-				"name": "nft",
-				"type": "tuple"
-			}
-		],
-		"name": "NFTStored",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Photo",
-				"name": "photo",
-				"type": "tuple"
-			}
-		],
-		"name": "PhotoRemoved",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Photo",
-				"name": "photo",
-				"type": "tuple"
-			}
-		],
-		"name": "PhotoStored",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Video",
-				"name": "video",
-				"type": "tuple"
-			}
-		],
-		"name": "VideoRemoved",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"indexed": false,
-				"internalType": "struct FileStorage.Video",
-				"name": "video",
-				"type": "tuple"
-			}
-		],
-		"name": "VideoStored",
-		"type": "event"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "enum FileStorage.Rating",
-				"name": "rating",
-				"type": "uint8"
-			}
-		],
-		"name": "addAudio",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			}
-		],
-		"name": "addDocument",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "address",
-				"name": "ownership",
-				"type": "address"
-			},
-			{
-				"internalType": "string",
-				"name": "description",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "external_url",
-				"type": "string"
-			},
-			{
-				"internalType": "enum FileStorage.Rarity",
-				"name": "rarity",
-				"type": "uint8"
-			}
-		],
-		"name": "addNft",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "string",
-				"name": "description",
-				"type": "string"
-			}
-		],
-		"name": "addPhoto",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "enum FileStorage.Rating",
-				"name": "rating",
-				"type": "uint8"
-			}
-		],
-		"name": "addVideo",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "audios",
-		"outputs": [
-			{
-				"components": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "path",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "size",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "isFavorite",
-						"type": "bool"
-					},
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "uploadedAt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					}
-				],
-				"internalType": "struct FileStorage.File",
-				"name": "file",
-				"type": "tuple"
-			},
-			{
-				"internalType": "enum FileStorage.Rating",
-				"name": "rating",
-				"type": "uint8"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "deleteAudio",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "deleteDocument",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "deleteNft",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "deletePhoto",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "deleteVideo",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "documents",
-		"outputs": [
-			{
-				"components": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "path",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "size",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "isFavorite",
-						"type": "bool"
-					},
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "uploadedAt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					}
-				],
-				"internalType": "struct FileStorage.File",
-				"name": "file",
-				"type": "tuple"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "getAllAudios",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"internalType": "struct FileStorage.Audio[]",
-				"name": "",
-				"type": "tuple[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "getAllDocuments",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					}
-				],
-				"internalType": "struct FileStorage.Document[]",
-				"name": "",
-				"type": "tuple[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "getAllNfts",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "address",
-						"name": "ownership",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "external_url",
-						"type": "string"
-					},
-					{
-						"internalType": "enum FileStorage.Rarity",
-						"name": "rarity",
-						"type": "uint8"
-					}
-				],
-				"internalType": "struct FileStorage.NFT[]",
-				"name": "",
-				"type": "tuple[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "getAllPhotos",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					}
-				],
-				"internalType": "struct FileStorage.Photo[]",
-				"name": "",
-				"type": "tuple[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "getAllVideos",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"internalType": "struct FileStorage.Video[]",
-				"name": "",
-				"type": "tuple[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "getAudio",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"internalType": "struct FileStorage.Audio",
-				"name": "",
-				"type": "tuple"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "getDocument",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					}
-				],
-				"internalType": "struct FileStorage.Document",
-				"name": "",
-				"type": "tuple"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "getNft",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "address",
-						"name": "ownership",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "external_url",
-						"type": "string"
-					},
-					{
-						"internalType": "enum FileStorage.Rarity",
-						"name": "rarity",
-						"type": "uint8"
-					}
-				],
-				"internalType": "struct FileStorage.NFT",
-				"name": "",
-				"type": "tuple"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "enum FileStorage.Rarity",
-				"name": "rarity",
-				"type": "uint8"
-			}
-		],
-		"name": "getNftByRarity",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "address",
-						"name": "ownership",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "external_url",
-						"type": "string"
-					},
-					{
-						"internalType": "enum FileStorage.Rarity",
-						"name": "rarity",
-						"type": "uint8"
-					}
-				],
-				"internalType": "struct FileStorage.NFT[]",
-				"name": "",
-				"type": "tuple[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "getPhoto",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					}
-				],
-				"internalType": "struct FileStorage.Photo",
-				"name": "",
-				"type": "tuple"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			}
-		],
-		"name": "getVideo",
-		"outputs": [
-			{
-				"components": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "path",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "size",
-								"type": "uint256"
-							},
-							{
-								"internalType": "bool",
-								"name": "isFavorite",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "uploadedAt",
-								"type": "uint256"
-							},
-							{
-								"internalType": "address",
-								"name": "owner",
-								"type": "address"
-							}
-						],
-						"internalType": "struct FileStorage.File",
-						"name": "file",
-						"type": "tuple"
-					},
-					{
-						"internalType": "enum FileStorage.Rating",
-						"name": "rating",
-						"type": "uint8"
-					}
-				],
-				"internalType": "struct FileStorage.Video",
-				"name": "",
-				"type": "tuple"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "nfts",
-		"outputs": [
-			{
-				"components": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "path",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "size",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "isFavorite",
-						"type": "bool"
-					},
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "uploadedAt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					}
-				],
-				"internalType": "struct FileStorage.File",
-				"name": "file",
-				"type": "tuple"
-			},
-			{
-				"internalType": "address",
-				"name": "ownership",
-				"type": "address"
-			},
-			{
-				"internalType": "string",
-				"name": "description",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "external_url",
-				"type": "string"
-			},
-			{
-				"internalType": "enum FileStorage.Rarity",
-				"name": "rarity",
-				"type": "uint8"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "photos",
-		"outputs": [
-			{
-				"components": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "path",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "size",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "isFavorite",
-						"type": "bool"
-					},
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "uploadedAt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					}
-				],
-				"internalType": "struct FileStorage.File",
-				"name": "file",
-				"type": "tuple"
-			},
-			{
-				"internalType": "string",
-				"name": "description",
-				"type": "string"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "enum FileStorage.Rating",
-				"name": "rating",
-				"type": "uint8"
-			}
-		],
-		"name": "updateAudio",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			}
-		],
-		"name": "updateDocument",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "address",
-				"name": "ownership",
-				"type": "address"
-			},
-			{
-				"internalType": "string",
-				"name": "description",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "external_url",
-				"type": "string"
-			},
-			{
-				"internalType": "enum FileStorage.Rarity",
-				"name": "rarity",
-				"type": "uint8"
-			}
-		],
-		"name": "updateNft",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "string",
-				"name": "description",
-				"type": "string"
-			}
-		],
-		"name": "updatePhoto",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "id",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "path",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "size",
-				"type": "uint256"
-			},
-			{
-				"internalType": "bool",
-				"name": "isFavorite",
-				"type": "bool"
-			},
-			{
-				"internalType": "enum FileStorage.Rating",
-				"name": "rating",
-				"type": "uint8"
-			}
-		],
-		"name": "updateVideo",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "videos",
-		"outputs": [
-			{
-				"components": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "path",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "size",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "isFavorite",
-						"type": "bool"
-					},
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "uploadedAt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					}
-				],
-				"internalType": "struct FileStorage.File",
-				"name": "file",
-				"type": "tuple"
-			},
-			{
-				"internalType": "enum FileStorage.Rating",
-				"name": "rating",
-				"type": "uint8"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	}
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Audio",
+                "name": "audio",
+                "type": "tuple"
+            }
+        ],
+        "name": "AudioRemoved",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Audio",
+                "name": "audio",
+                "type": "tuple"
+            }
+        ],
+        "name": "AudioStored",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Document",
+                "name": "document",
+                "type": "tuple"
+            }
+        ],
+        "name": "DocumentRemoved",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Document",
+                "name": "document",
+                "type": "tuple"
+            }
+        ],
+        "name": "DocumentStored",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "ownership",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "external_url",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rarity",
+                        "name": "rarity",
+                        "type": "uint8"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.NFT",
+                "name": "nft",
+                "type": "tuple"
+            }
+        ],
+        "name": "NFTRemoved",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "ownership",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "external_url",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rarity",
+                        "name": "rarity",
+                        "type": "uint8"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.NFT",
+                "name": "nft",
+                "type": "tuple"
+            }
+        ],
+        "name": "NFTStored",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Photo",
+                "name": "photo",
+                "type": "tuple"
+            }
+        ],
+        "name": "PhotoRemoved",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Photo",
+                "name": "photo",
+                "type": "tuple"
+            }
+        ],
+        "name": "PhotoStored",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Video",
+                "name": "video",
+                "type": "tuple"
+            }
+        ],
+        "name": "VideoRemoved",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "indexed": false,
+                "internalType": "struct FileStorage.Video",
+                "name": "video",
+                "type": "tuple"
+            }
+        ],
+        "name": "VideoStored",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "enum FileStorage.Rating",
+                "name": "rating",
+                "type": "uint8"
+            }
+        ],
+        "name": "addAudio",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            }
+        ],
+        "name": "addDocument",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "address",
+                "name": "ownership",
+                "type": "address"
+            },
+            {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "external_url",
+                "type": "string"
+            },
+            {
+                "internalType": "enum FileStorage.Rarity",
+                "name": "rarity",
+                "type": "uint8"
+            }
+        ],
+        "name": "addNft",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+            }
+        ],
+        "name": "addPhoto",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "enum FileStorage.Rating",
+                "name": "rating",
+                "type": "uint8"
+            }
+        ],
+        "name": "addVideo",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "audios",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "path",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "size",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "isFavorite",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "uploadedAt",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "owner",
+                        "type": "address"
+                    }
+                ],
+                "internalType": "struct FileStorage.File",
+                "name": "file",
+                "type": "tuple"
+            },
+            {
+                "internalType": "enum FileStorage.Rating",
+                "name": "rating",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "deleteAudio",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "deleteDocument",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "deleteNft",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "deletePhoto",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "deleteVideo",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "documents",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "path",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "size",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "isFavorite",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "uploadedAt",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "owner",
+                        "type": "address"
+                    }
+                ],
+                "internalType": "struct FileStorage.File",
+                "name": "file",
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllAudios",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "internalType": "struct FileStorage.Audio[]",
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllDocuments",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    }
+                ],
+                "internalType": "struct FileStorage.Document[]",
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllNfts",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "ownership",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "external_url",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rarity",
+                        "name": "rarity",
+                        "type": "uint8"
+                    }
+                ],
+                "internalType": "struct FileStorage.NFT[]",
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllPhotos",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    }
+                ],
+                "internalType": "struct FileStorage.Photo[]",
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllVideos",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "internalType": "struct FileStorage.Video[]",
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getAudio",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "internalType": "struct FileStorage.Audio",
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getDocument",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    }
+                ],
+                "internalType": "struct FileStorage.Document",
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getNft",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "ownership",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "external_url",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rarity",
+                        "name": "rarity",
+                        "type": "uint8"
+                    }
+                ],
+                "internalType": "struct FileStorage.NFT",
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "enum FileStorage.Rarity",
+                "name": "rarity",
+                "type": "uint8"
+            }
+        ],
+        "name": "getNftByRarity",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "ownership",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "external_url",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rarity",
+                        "name": "rarity",
+                        "type": "uint8"
+                    }
+                ],
+                "internalType": "struct FileStorage.NFT[]",
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getPhoto",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "description",
+                        "type": "string"
+                    }
+                ],
+                "internalType": "struct FileStorage.Photo",
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getVideo",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "path",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "size",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bool",
+                                "name": "isFavorite",
+                                "type": "bool"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "id",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "uploadedAt",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "owner",
+                                "type": "address"
+                            }
+                        ],
+                        "internalType": "struct FileStorage.File",
+                        "name": "file",
+                        "type": "tuple"
+                    },
+                    {
+                        "internalType": "enum FileStorage.Rating",
+                        "name": "rating",
+                        "type": "uint8"
+                    }
+                ],
+                "internalType": "struct FileStorage.Video",
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "nfts",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "path",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "size",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "isFavorite",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "uploadedAt",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "owner",
+                        "type": "address"
+                    }
+                ],
+                "internalType": "struct FileStorage.File",
+                "name": "file",
+                "type": "tuple"
+            },
+            {
+                "internalType": "address",
+                "name": "ownership",
+                "type": "address"
+            },
+            {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "external_url",
+                "type": "string"
+            },
+            {
+                "internalType": "enum FileStorage.Rarity",
+                "name": "rarity",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "photos",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "path",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "size",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "isFavorite",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "uploadedAt",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "owner",
+                        "type": "address"
+                    }
+                ],
+                "internalType": "struct FileStorage.File",
+                "name": "file",
+                "type": "tuple"
+            },
+            {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "enum FileStorage.Rating",
+                "name": "rating",
+                "type": "uint8"
+            }
+        ],
+        "name": "updateAudio",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            }
+        ],
+        "name": "updateDocument",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "address",
+                "name": "ownership",
+                "type": "address"
+            },
+            {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "external_url",
+                "type": "string"
+            },
+            {
+                "internalType": "enum FileStorage.Rarity",
+                "name": "rarity",
+                "type": "uint8"
+            }
+        ],
+        "name": "updateNft",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+            }
+        ],
+        "name": "updatePhoto",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "path",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "size",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "isFavorite",
+                "type": "bool"
+            },
+            {
+                "internalType": "enum FileStorage.Rating",
+                "name": "rating",
+                "type": "uint8"
+            }
+        ],
+        "name": "updateVideo",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "videos",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "path",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "size",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "isFavorite",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "uploadedAt",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "owner",
+                        "type": "address"
+                    }
+                ],
+                "internalType": "struct FileStorage.File",
+                "name": "file",
+                "type": "tuple"
+            },
+            {
+                "internalType": "enum FileStorage.Rating",
+                "name": "rating",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
 ]

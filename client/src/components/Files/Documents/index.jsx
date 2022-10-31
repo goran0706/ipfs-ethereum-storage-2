@@ -3,11 +3,11 @@ import DocumentList from './DocumentList';
 import Uploader from '../../Uploader.jsx';
 
 export default function Documents() {
-	const { documents } = useDocumentContext();
+    const { documents } = useDocumentContext();
 
-	return (
-		<DocumentList documents={documents}>
-			<Uploader />
-		</DocumentList>
-	);
+    return (
+        <DocumentList documents={documents}>
+            <Uploader />
+        </DocumentList>
+    );
 }

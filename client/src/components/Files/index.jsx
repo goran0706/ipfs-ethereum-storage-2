@@ -6,13 +6,13 @@ import Videos from './Videos';
 import Documents from './Documents';
 
 export default function Files() {
-	return (
-		<Routes>
-			<Route path='/nfts' element={<NFTs />} />
-			<Route path='/photos' element={<Photos />} />
-			<Route path='/audios' element={<Audios />} />
-			<Route path='/videos' element={<Videos />} />
-			<Route path='/documents' element={<Documents />} />
-		</Routes>
-	);
+    return (
+        <Routes>
+            <Route path='/nfts' element={<NFTs />} />
+            <Route path='/photos' element={<Photos />} />
+            <Route path='/audios' element={<Audios />} />
+            <Route path='/videos' element={<Videos />} />
+            <Route path='/documents' element={<Documents />} />
+        </Routes>
+    );
 }

@@ -3,25 +3,22 @@ import { useMemo } from 'react';
 import NFTListItem from './NFTListItem';
 
 const StyledNFTList = styled.ul`
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
 `;
 
 export default function NFTList({ nfts, children }) {
-	const items = useMemo(
-		() => nfts?.map(n => <NFTListItem key={n.file.id} nft={n} />),
-		[nfts]
-	);
+    const items = useMemo(() => nfts?.map((n) => <NFTListItem key={n.file.id} nft={n} />), [nfts]);
 
-	return (
-		<StyledNFTList>
-			{children}
-			{items}
-		</StyledNFTList>
-	);
+    return (
+        <StyledNFTList>
+            {children}
+            {items}
+        </StyledNFTList>
+    );
 }
